@@ -1,15 +1,10 @@
 import { VideoCard } from "@/components/VideoCard";
-import { title } from "process";
-
+import { VideoGrid } from "@/components/VideoGrid";
+import { AppBar } from "@/components/AppBar";
 export default function Home(){
   return <div >
-    <VideoCard 
-      title={"Title of video"}
-      image={"/photo.png"}
-      author={"channel name"}
-      view={"views count"}
-      ts={"time to upload"}
-    ></VideoCard>
+    <AppBar></AppBar>
+    <VideoGrid></VideoGrid>
     
   </div> 
 

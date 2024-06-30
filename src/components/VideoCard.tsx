@@ -1,11 +1,11 @@
 export function VideoCard(props : any) {
     return <div>
-        <img className="rounded-xl" src={props.image}></img>
-        <div className="grid grid-cols-12">
-            <div className="col-span-1">
-                <img className="rounded-full h-20 w-20" src={props.image}></img>
+        <img className="rounded-xl cursor-pointer" src={props.image}></img>
+        <div className="grid grid-cols-12 pt-3">
+            <div className="col-span-2 ">
+                <img className="rounded-full h-16 w-16 pt-1" src={props.image}></img>
             </div>
-            <div className="col-span-11">
+            <div className="col-span-10 pl-4">
                 <div className="text-lg font-bold">
                     {props.title}
                 </div>
